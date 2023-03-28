@@ -55,7 +55,7 @@ public class TestBase
 		driver.manage().window().maximize();
 		driver.get("https://www.demoblaze.com/");
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		
 		 
 		
